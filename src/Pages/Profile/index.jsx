@@ -6,7 +6,7 @@ import ProfileGallery from '../../Components/ui/Profile/ProfileGallery'
 
 const index = () => {
   return (
-    <Container customeStyle={"py-12 px-8"}>
+    <Container customeStyle={"py-12 px-8 max-sm:px-2"}>
         <ProfileHeader/>
         <About/>
         <ProfileGallery/>
