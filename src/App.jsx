@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Pages/Layout/index.jsx";
 import Home from "./Pages/Home/index.jsx";
 import Profile from "./Pages/Profile/index.jsx";
+import Notification from "./Pages/Notifiction/index.jsx";
 function App() {
   const router = createBrowserRouter([
     {
@@ -26,11 +27,7 @@ function App() {
         },
         {
           path: "notifications",
-          element: (
-            <div className="bg-[#212121] text-white w-full lg:ms-auto">
-              Notifications
-            </div>
-          ),
+          element: <Notification />,
         },
         {
           path: "create",
